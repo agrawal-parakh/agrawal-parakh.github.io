@@ -7,33 +7,21 @@ let homePage = (req, res) => {
 
 
 let aboutUs = (req, res) => {
-  // defining path to aboutUs.html file.
   let pathToaboutUs = path.join(__dirname, "../../client/views/aboutUs.html");
-  // sending the file as a response
   res.sendFile(pathToaboutUs);
 };
 
-// serving about us page for response
-
 let login = (req, res) => {
-  // defining path to login.html file.
-  let pathToHtml = path.join(__dirname, "../../client/views/login.html");
-  // sending the file as a response
-  res.sendFile(pathToHtml);
+  let pathTologin = path.join(__dirname, "../../client/views/login.html");
+  res.sendFile(pathTologin);
 };
 
-
-
-// serving about us page for response
 
 let signUp = (req, res) => {
-  // defining path to aboutUs.html file.
-  let pathToHtml = path.join(__dirname, "../../client/views/signUp.html");
-  // sending the file as a response
-  res.sendFile(pathToHtml);
+  let pathTosignUp = path.join(__dirname, "../../client/views/signUp.html");
+  res.sendFile(pathTosignUp);
 };
 
-// exporting our responses.
 
 module.exports = {
   homePage: homePage,

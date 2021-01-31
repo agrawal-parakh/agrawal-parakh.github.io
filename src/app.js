@@ -1,4 +1,4 @@
-//for sending dynamic content from an ejs file and also serve sttic files and imges 
+//for sending dynamic content from an ejs file and also serve static files and imges 
 // const express = require("express");
 // const router = express.Router();
 // const app = express();
@@ -31,8 +31,8 @@ const app = express();
 app.use("/", routes);
 app.use(express.static(path.join(__dirname, "client/assets/images/")));
 app.use(express.static(path.join(__dirname, "client/assets/css/")));
-app.listen(2001, () => {
-  console.log("Application listening on port 2001");
+app.listen(4000, () => {
+  console.log("Application listening on port 4000");
 });
 
 module.exports = app;
