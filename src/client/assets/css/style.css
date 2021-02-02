@@ -1,4 +1,17 @@
-h1{
-    background-color: red;
-    
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem;
+    background-color: white;
+    flex-direction: row;
 }
+
+img{
+    width: 100px;
+}
+
+i.fas.fa-bars {
+    color: #525659;
+}
+
+

@@ -1,7 +1,14 @@
 
 const path = require("path");
-let homePage = (req, res) => {
-  let pathToHtml = path.join(__dirname, "../../client/views/homePage.html");
+
+let task01 = (req, res) => {
+      let pathTotask01 = path.join(__dirname, "../../client/views/task01.html");
+      res.sendFile(pathTotask01);
+    };
+
+
+let index = (req, res) => {
+  let pathToHtml = path.join(__dirname, "../../client/views/index.html");
   res.sendFile(pathToHtml);
 };
 
@@ -24,7 +31,8 @@ let signUp = (req, res) => {
 
 
 module.exports = {
-  homePage: homePage,
+    task01:task01,
+  index:index,
   aboutUs: aboutUs,
   login: login,
   signUp: signUp
