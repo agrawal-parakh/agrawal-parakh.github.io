@@ -28,6 +28,10 @@
 html {
     scroll-behavior: smooth;
 }
+header{
+    padding: 1rem;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
     font-family: BoldFont;
@@ -103,7 +107,7 @@ input[type="text"], input[type="date"] {
     font-size: 1.1rem;
 }
 
-image {
+img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -158,6 +162,10 @@ nav {
 }
 
 @media only screen and (min-width: 768px) {
+    header{
+        padding: 1.5rem;
+    }
+    
     h1, h2 {
         font-size: 3rem;
         line-height: 3rem;
@@ -191,6 +199,10 @@ nav {
 }
 
 @media only screen and (min-width: 1024px) {
+    header{
+        padding: 2.5rem;
+    }
+    
     section {
         padding: 5rem 4rem;
     }
