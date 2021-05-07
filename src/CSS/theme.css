@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+@font-face {
+    font-family: "BoldFont";
+    src: url("../Fonts/Nexa-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "LightFont";
+    src: url("../Fonts/Nexa-Light.otf") format("opentype");
+}
+
+:root {
+    --dark-blue: #2a2d3e;
+    --light-blue: #9cbfda;
+    --bright-blue: #0099ff;
+    --dark-blue: #021433;
+    --grey: #636668;
+    --light-grey: #ccc;
+    --dark-grey: #525659;
+    --black: #000;
+    --white: #fff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: BoldFont;
+    color: var(--dark-blue);
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    /* text-align: center; */
+}
+
+h1, h2 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.3rem;
+}
+
+h6 {
+    font-size: 1.2rem;
+}
+
+p {
+    font-family: LightFont;
+    margin-bottom: 1.5rem;
+    color: var(--dark-blue);
+    font-size: 1.1rem;
+    word-spacing: 0.3rem;
+}
+
+select {
+    padding: 0.7rem;
+    border: none;
+    border-radius: 0.4rem;
+    margin-bottom: 1rem;
+    background-color: var(--dark-grey);
+}
+
+option {
+    font-family: LighFont;
+    font-size: 1.1rem;
+}
+
+label {
+    font-size: 1rem;
+    font-family: LightFont;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+input {
+    font-size: 1rem;
+    padding: 0.7rem;
+    border-radius: 0.4rem;
+    border: none;
+    outline: none;
+}
+
+input[type="text"], input[type="date"] {
+    border: 0.2rem solid var(--light-grey);
+}
+
+::placeholder {
+    color: var(--light-grey);
+    font-size: 1.1rem;
+}
+
+image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    padding: 0.7rem 0.5rem;
+    border-radius: 0.4rem;
+    font-size: 1.2rem;
+    border: none;
+}
+
+.primary-button {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    border: 0.1rem solid var(--white);
+}
+
+.primary-button:hover {
+    background-color: var(--white);
+    color: var(--dark-blue);
+}
+
+.secondary-button {
+    background-color: var(--white);
+    color: var(--dark-blue);
+    border: 0.1rem solid var(--dark-blue);
+}
+
+.secondary-button:hover {
+    background-color: var(--dark-blue);
+    color: var(--white);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: var(--white);
+}
+
+@media only screen and (min-width: 768px) {
+    h1, h2 {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    h3 {
+        font-size: 2.2rem;
+    }
+    h4 {
+        font-size: 1.7rem;
+    }
+    h5 {
+        font-size: 1.5rem;
+    }
+    h6 {
+        font-size: 1.4rem;
+    }
+    p {
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+    }
+    label {
+        font-size: 1.3rem;
+    }
+    input {
+        font-size: 1.1rem;
+        border-radius: 0.5rem;
+    }
+    form {
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    section {
+        padding: 5rem 4rem;
+    }
+    h1, h2 {
+        font-size: 3.5rem;
+    }
+    h3 {
+        font-size: 2.5rem;
+    }
+    h4 {
+        font-size: 2rem;
+    }
+    h5 {
+        font-size: 1.5rem;
+    }
+    h6 {
+        font-size: 1.4rem;
+    }
+    p {
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+    label {
+        font-size: 1.4rem;
+    }
+}
