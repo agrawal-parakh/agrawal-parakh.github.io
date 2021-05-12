@@ -1,0 +1,52 @@
+ body {
+     background-color: var(--light-blue);
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+ }
+
+ .login-form {
+     background-color: var(--white);
+     display: flex;
+     flex-direction: column;
+     padding: 1.5rem 1rem;
+     text-align: center;
+ }
+
+ .login-form input {
+     padding: 1rem;
+ }
+
+ .login-form ::placeholder {
+     font-size: 0.8rem;
+     font-family: BoldFont;
+ }
+
+ i.fa.fa-question-circle {
+     display: flex;
+     justify-content: flex-end;
+     /* position: relative; */
+     /* right: 1rem; */
+     /* top: -2.75rem; */
+     color: var(--light-grey);
+     font-size: 1.25rem;
+     right: 15%;
+     bottom: 59%;
+     position: absolute;
+ }
+
+ i.fas.fa-arrow-right {
+     display: flex;
+     justify-content: flex-end;
+     position: relative;
+     right: 1rem;
+     top: -2.5rem;
+     color: var(--white);
+ }
+
+ @media only screen and (min-width:768px) {
+     /* i.fa.fa-question-circle {
+      
+     } */
+ }

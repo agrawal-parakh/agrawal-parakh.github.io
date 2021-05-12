@@ -28,10 +28,15 @@
 html {
     scroll-behavior: smooth;
 }
-header{
+
+header {
     padding: 1rem;
+    background-color: var(--white);
 }
 
+section {
+    padding: 2rem 1.5rem;
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: BoldFont;
@@ -68,7 +73,10 @@ p {
     color: var(--dark-blue);
     font-size: 1.1rem;
     word-spacing: 0.3rem;
+
+  
 }
+
 
 select {
     padding: 0.7rem;
@@ -93,19 +101,51 @@ label {
 input {
     font-size: 1rem;
     padding: 0.7rem;
-    border-radius: 0.4rem;
+    /* border-radius: 0.4rem; */
     border: none;
     outline: none;
+    /* caret-color: var(--dark-grey); */
+    margin-bottom: 0.5rem;
 }
 
-input[type="text"], input[type="date"] {
-    border: 0.2rem solid var(--light-grey);
-}
 
 ::placeholder {
     color: var(--light-grey);
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
+
+
+
+
+/* input:focus {
+    border: 0.2rem solid var(--bright-blue);
+  } */
+
+form>input {
+    border: 1px solid var(--light-grey);
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type=checkbox]+label::before {
+    content: "\2714";
+   border: 0.1rem solid black;
+   padding: 0.1rem;
+   color: transparent;
+}
+input[type=checkbox]:checked+label::before{
+   background-color: var(--white);
+   color: var(--bright-blue);
+}
+
+input[type=button]{
+    background-color: var(--dark-blue);
+    color: var(--white);
+}
+
+
 
 img {
     height: 100%;
@@ -123,6 +163,7 @@ button {
     border-radius: 0.4rem;
     font-size: 1.2rem;
     border: none;
+    outline: none;
 }
 
 .primary-button {
@@ -134,6 +175,7 @@ button {
 .primary-button:hover {
     background-color: var(--white);
     color: var(--dark-blue);
+    border: 0.1rem solid var(--dark-blue);
 }
 
 .secondary-button {
@@ -145,26 +187,30 @@ button {
 .secondary-button:hover {
     background-color: var(--dark-blue);
     color: var(--white);
+    border: 0.1rem solid var(--dark-blue);
 }
 
 a {
     text-decoration: none;
 }
 
-ul, ol {
+ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-nav {
+/* nav {
     background-color: var(--white);
-}
+} */
 
 @media only screen and (min-width: 768px) {
-    header{
+    header {
         padding: 1.5rem;
     }
+    section {
+        padding: 3rem;
+      }
     
     h1, h2 {
         font-size: 3rem;
@@ -193,16 +239,13 @@ nav {
         font-size: 1.1rem;
         border-radius: 0.5rem;
     }
-    form {
-        flex-direction: row;
-    }
+  
 }
 
 @media only screen and (min-width: 1024px) {
-    header{
+    header {
         padding: 2.5rem;
     }
-    
     section {
         padding: 5rem 4rem;
     }

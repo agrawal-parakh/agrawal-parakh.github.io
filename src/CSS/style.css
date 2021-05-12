@@ -8,9 +8,42 @@ nav{
 .header-img{
     width: 8rem;
 }
+
 .header-icon{
     color: var(--dark-grey);
 }
+
+.desktop-header{
+    display: none;
+}
+
+.affordable-health{
+    background-color: var(--light-blue);
+}
+
+
+
+
+
+
+
+
+.form-afford i{
+    color: red;
+    position:absolute;
+}
+
+.gps-icon{
+    width: 1rem;
+}
+
+
+
+
+
+
+
+
 
 @media only screen and (min-width:768px){
     .header-img{
@@ -26,6 +59,19 @@ nav{
     .header-img{
         width: 15rem;
     }
+   .desktop-header{
+       display: block;
+   }
+   .header-icon{
+       display: none;
+   }
+   /* .affordable-health{
+       background-color: transparent;
+        background-image: url("https://s3.ap-south-1.amazonaws.com/appdev.konfinity.com/css/tasks/img1.jpg");
+       background-repeat: no-repeat; 
+       
+   } */
+
 }
 
 
