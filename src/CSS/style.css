@@ -17,6 +17,14 @@ nav{
     display: none;
 }
 
+.desktop-header-links a{
+    margin: 1rem;
+    font-size: 1.25rem;
+}
+
+
+
+
 .affordable-health{
     background-color: var(--light-blue);
 }

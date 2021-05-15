@@ -16,13 +16,15 @@
 :root {
     --dark-blue: #2a2d3e;
     --light-blue: #9cbfda;
-    --bright-blue: #0099ff;
+    --bright-blue: #0173b2;
     --dark-blue: #021433;
     --grey: #636668;
     --light-grey: #ccc;
     --dark-grey: #525659;
+    --mix-grey:#777;
     --black: #000;
     --white: #fff;
+
 }
 
 html {
@@ -192,6 +194,9 @@ button {
 
 a {
     text-decoration: none;
+    font-size: 0.8rem;
+    color: var(--dark-blue);
+    font-family: LightFont;
 }
 
 ul {
@@ -237,7 +242,8 @@ ul {
     }
     input {
         font-size: 1.1rem;
-        border-radius: 0.5rem;
+        margin-bottom: 0.8rem;
+        /* border-radius: 0.5rem; */
     }
   
 }

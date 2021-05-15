@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +9,10 @@
     <link rel="stylesheet" href="../CSS/login.css" />
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css">
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css">
     <title>Login</title>
 </head>
+
 <body>
     <header>
         <nav>
@@ -21,6 +23,28 @@
             <div class="header-icon">
                 <i class="fas fa-bars"></i>
             </div>
+
+            
+                <div class="desktop-header desktop-header-links">
+                    <a href="">Doctors</a>
+                    <a href="">Hospitals</a>
+                    <a href="">Treatment</a>
+                    <a href="">Other services</a>
+                    <a href="">About</a>
+                </div>
+                <div class="desktop-header desktop-header-buttons">
+                    <button class="primary-button">Login/Sign Up</button>
+                    <button class="secondary-button">Get A Quote</button>
+                </div>
+        
+            
+        </nav>
+
+            
+
+
+
+
         </nav>
     </header>
 
@@ -28,31 +52,26 @@
         <div class="login-form">
             <h3>Login</h3>
             <form action="">
-                <input type="text" placeholder="Enter Mobile Number" />
-                <!-- <i class="fa fa-question-circle" style="font-size: 1.2rem;color: var(--light-grey);position: absolute;left: 17rem;margin: 1rem;"></i> -->
-                <i class="fa fa-question-circle"></i>
-                <input type="text" placeholder="Enter OTP" />
-             
-                    <input type="button" value="LOGIN">
-                <i class="fas fa-arrow-right"></i>
-                <!-- display: flex;
-    justify-content: flex-end;
-    position: relative;
-    right: 0.5rem;
-    top: -2.5rem; -->
+                <div class="icon-wrap">
+                    <i class="fa fa-question-circle"></i>
+                </div>
 
-     
-               
+                <input type="text" placeholder="Enter Mobile Number" />
+                <input type="text" placeholder="Enter OTP" />
+                <div class="icon-wrap">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <input type="button" value="LOGIN">
             </form>
+            <div class="not-register">
+                <h6>Not Registered?</h6>
+                <a href="../CSS/SignUp.css">Sign Up</a>
+            </div>
         </div>
     </section>
-  
-    
-
-<section class="footer-login">
-    <p>All rights reserved</p>
-</section>
-
-
+    <section class="footer-login">
+        <h6>All rights reserved <span>&#169;</span>Tvastra 2020</h6>
+    </section>
 </body>
+
 </html>
