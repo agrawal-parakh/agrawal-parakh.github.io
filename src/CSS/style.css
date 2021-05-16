@@ -1,115 +1,91 @@
-
 /* nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
 } */
 
-.header-img{
+.header-img {
     width: 8rem;
 }
 
-.header-icon{
+.header-icon {
     color: var(--dark-grey);
 }
 
-.desktop-list{
+.desktop-list {
     display: none;
 }
 
-
-.header-container {
+/* .header-container {
     padding: 1rem;
     background-color: var(--white);
-}
+} */
 
-.navigation-container{
+.navigation-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-
-
-.affordable-health{
+.affordable-health {
     background-color: var(--light-blue);
 }
 
-
-
-
-
-
-
-
-.form-afford i{
+.form-afford i {
     color: red;
-    position:absolute;
+    position: absolute;
 }
 
-.gps-icon{
+.gps-icon {
+    /* font-family: BoldFont; */
     width: 1rem;
 }
 
-.desktop-header-list,.desktop-header-button{
+.desktop-header-list, .desktop-header-button {
     display: none;
 }
 
-
-
-
-
-
-
-
-@media only screen and (min-width:768px){
-    .header-img{
+@media only screen and (min-width:768px) {
+    .header-img {
         width: 10rem;
     }
-    .header-icon{
+    .header-icon {
         font-size: 1.5rem;
     }
 }
 
-
-@media only screen and (min-width:1024px){
-    .header-img{
+@media only screen and (min-width:1024px) {
+   
+    .header-img {
         width: 15rem;
     }
-   
-   .header-icon{
-       display: none;
-   }
-.desktop-list{
-    display: block;
+    .header-icon {
+        display: none;
+    }
+    .desktop-list {
+        display: block;
+    }
+    .desktop-header-list, .desktop-header-button {
+        display: block;
+    }
+    .desktop-header-list ul {
+        display: flex;
+    }
+    .desktop-header-list li {
+        padding: 1rem;
+    }
+    .primary-button, .secondary-button {
+        border-radius: 0rem;
+    }
+    .secondary-button-margin {
+        margin-right: 1rem;
+    }
+    .primary-button {
+        padding: 0.8rem;
+    }
 }
-
-.desktop-header-list,.desktop-header-button{
-    display: block;
+@media only screen and (min-width:1300px) {
+li>a{
+    font-size: 1rem;
 }
-.desktop-header-list ul{
-    display: flex;
 }
-.desktop-header-list li{
-    padding: 1rem;
-}
-
-.desktop-header-list a{
-    font-size: 1.2rem;
-}
-.primary-button,.secondary-button{
-    border-radius: 0rem;
-}
-.secondary-button-margin{
-    margin-right: 1rem;
-}
-.primary-button{
-padding: 0.8rem;
-}
-
-
-
-
-}
-
-

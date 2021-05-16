@@ -24,7 +24,7 @@
     --mix-grey:#777;
     --black: #000;
     --white: #fff;
-
+    --whitesmoke:	#F5F5F5;
 }
 
 html {
@@ -75,22 +75,21 @@ p {
     color: var(--dark-blue);
     font-size: 1.1rem;
     word-spacing: 0.3rem;
-
-  
 }
-
 
 select {
     padding: 0.7rem;
     border: none;
     border-radius: 0.4rem;
     margin-bottom: 1rem;
-    background-color: var(--dark-grey);
+    background-color: var(--white);
+    border: 1px solid var(--light-grey);
 }
 
 option {
     font-family: LighFont;
     font-size: 1.1rem;
+    color:var(--grey);
 }
 
 label {
@@ -113,6 +112,8 @@ input {
 
 ::placeholder {
     color: var(--light-grey);
+ 
+
     font-size: 1rem;
 }
 
@@ -135,7 +136,7 @@ input[type=checkbox]+label::before {
     content: "\2714";
    border: 0.1rem solid black;
    padding: 0.1rem;
-   color: transparent;
+   color: var(--white);
 }
 input[type=checkbox]:checked+label::before{
    background-color: var(--white);
@@ -210,9 +211,7 @@ ul {
 } */
 
 @media only screen and (min-width: 768px) {
-    header {
-        padding: 1.5rem;
-    }
+  
     section {
         padding: 3rem;
       }
@@ -249,9 +248,7 @@ ul {
 }
 
 @media only screen and (min-width: 1024px) {
-    header {
-        padding: 2.5rem;
-    }
+   
     section {
         padding: 5rem 4rem;
     }
@@ -278,3 +275,8 @@ ul {
         font-size: 1.4rem;
     }
 }
+
+/* 
+@media only screen and (min-width: 1300px) {
+
+} */
