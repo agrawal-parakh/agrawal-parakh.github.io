@@ -6,6 +6,7 @@ body {
     justify-content: space-between;
 }
 
+
 form {
     padding: 1.5rem 1rem;
 }
@@ -33,9 +34,13 @@ form {
     appearance: none;
 }
 
-.signup-date{
+#signup-date{
+    border: 1px solid var(--light-grey);
     color: var(--light-grey);
 }
+
+
+
 
 .signup-container{
     display: flex;
@@ -54,21 +59,21 @@ form {
 ::-webkit-calendar-picker-indicator { display: none }
 
 
-.not-register {
+.already-register {
     display: flex;
     justify-content: center;
 }
 
-.not-register h6 {
+.already-register h6 {
     color: var(--mix-grey);
 }
 
-.not-register a {
+.already-register a {
     font-family: BoldFont;
     color: var(--bright-blue);
 }
 
-.login-form ::placeholder,.not-register h6 {
+.login-form ::placeholder,.already-register h6 {
     font-size: 0.8rem;
     font-family: BoldFont;
 }

@@ -1,0 +1,103 @@
+body {
+    background-color: var(--light-blue);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+form {
+    padding: 1.5rem 1rem;
+}
+
+.appointment-question-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    text-align: start;
+}
+
+.book-appoitment-button {
+    word-spacing: 0.3rem;
+    padding: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+.appointment-date-BoldFont {
+    font-family: BoldFont;
+    /* font-size: 1.2rem; */
+}
+
+.container {
+    display: flex;
+}
+
+.appointment-form {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.appointment-form h3 {
+    color: var(--bright-blue);
+    font-size: 1.2rem;
+    padding: 2rem;
+    margin: 0rem;
+    border-bottom: 0.1rem solid var(--light-grey);
+}
+
+
+
+/* hide calendar-picker-indicator */
+
+::-webkit-calendar-picker-indicator {
+    display: none
+}
+
+
+
+.appointment-form ::placeholder {
+    font-size: 0.8rem;
+    font-family: BoldFont;
+}
+
+.icon-wrap {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+
+i.fas.fa-arrow-right {
+    color: var(--white);
+    position: absolute;
+    padding: 1rem;
+}
+
+.appointment-footer h6 {
+    text-align: center;
+    font-size: 1.2rem;
+    word-spacing: 0.1rem;
+}
+
+@media only screen and (min-width:768px) {
+    .appointment-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .appointment-form {
+        width: 65%;
+    }
+    .appointment-footer h6 {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .appointment-form {
+        width: 50%;
+    }
+}
