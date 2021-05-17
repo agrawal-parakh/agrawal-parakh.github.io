@@ -21,10 +21,10 @@
     --grey: #636668;
     --light-grey: #ccc;
     --dark-grey: #525659;
-    --mix-grey:#777;
+    --mix-grey: #777;
     --black: #000;
     --white: #fff;
-    --whitesmoke:	#F5F5F5;
+    --whitesmoke: #F5F5F5;
 }
 
 html {
@@ -89,7 +89,7 @@ select {
 option {
     font-family: LighFont;
     font-size: 1.1rem;
-    color:var(--grey);
+    color: var(--grey);
 }
 
 label {
@@ -110,14 +110,10 @@ input {
     margin-bottom: 0.5rem;
 }
 
-
 ::placeholder {
     color: var(--light-grey);
     font-size: 1rem;
 }
-
-
-
 
 /* input:focus {
     border: 0.1rem solid var(--bright-blue);
@@ -133,14 +129,14 @@ input[type="checkbox"] {
 
 input[type="checkbox"]+label::before {
     content: "\2714";
-   border: 0.1rem solid black;
-   padding: 0.1rem;
-   color: var(--white);
+    border: 0.1rem solid var(--black);
+    padding: 0.1rem;
+    color: var(--white);
 }
 
-input[type="checkbox"]:checked+label::before{
-   background-color: var(--white);
-   color: var(--bright-blue);
+input[type="checkbox"]:checked+label::before {
+    background-color: var(--white);
+    color: var(--bright-blue);
 }
 
 input[type="radio"] {
@@ -149,24 +145,28 @@ input[type="radio"] {
 
 input[type="radio"]+label::before {
     content: "\2714";
-   border: 0.1rem solid black;
-   padding: 0.1rem;
-   color: var(--white);
-   margin-right: 1rem;
+    border: 0.1rem solid var(--grey);
+    padding: 0.1rem;
+    color: transparent;
+    margin-right: 1rem;
+    border-radius: 50%;
+    background-color: var(--light-grey);
 }
 
-input[type="radio"]:checked+label::before{
-   background-color: var(--white);
-   color: var(--bright-blue);
+input[type="radio"]:checked+label::before {
+    background-color: var(--white);
+    color: var(--bright-blue);
 }
 
-input[type=button]{
+input[type=button] {
     background-color: var(--dark-blue);
     color: var(--white);
 }
-input[type="file"]{
+
+input[type="file"] {
     padding: 0;
 }
+
 input[type="date"]:enabled {
     border: 0.2rem solid var(--mix-grey);
     color: var(--mix-grey);
@@ -177,15 +177,13 @@ input[type="date"]:focus {
     color: var(--light-grey);
 }
 
-textarea{
+textarea {
     margin-bottom: 1rem;
     /* min-width: 245px; */
     min-width: 165px;
     max-width: 900px;
     /* max-width: 1010px; */
-
 }
-
 
 img {
     height: 100%;
@@ -242,7 +240,8 @@ ul {
     padding: 0;
     margin: 0;
 }
-span{
+
+span {
     margin-right: 0.3rem;
 }
 
@@ -251,11 +250,9 @@ span{
 } */
 
 @media only screen and (min-width: 768px) {
-  
     section {
         padding: 3rem;
-      }
-    
+    }
     h1, h2 {
         font-size: 3rem;
         line-height: 3rem;
@@ -284,15 +281,13 @@ span{
         margin-bottom: 0.8rem;
         /* border-radius: 0.5rem; */
     }
-    textarea{
+    textarea {
         max-width: 1000px;
         /* border: 1px solid red; */
     }
-  
 }
 
 @media only screen and (min-width: 1024px) {
-   
     section {
         padding: 5rem 4rem;
     }
@@ -318,7 +313,7 @@ span{
     label {
         font-size: 1.4rem;
     }
-    textarea{
+    textarea {
         max-width: 1180px;
     }
 }
