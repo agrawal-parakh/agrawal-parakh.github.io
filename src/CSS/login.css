@@ -72,6 +72,10 @@
      font-size: 0.8rem;
      word-spacing: 0.1rem;
  }
+ 
+ .login-form-container input[type="text"]{
+     border: 1px solid var(--light-grey);
+ }
 
  @media only screen and (min-width:768px) {
      .login-container{
