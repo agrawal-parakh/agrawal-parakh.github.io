@@ -30,9 +30,12 @@
     text-align: center;
 }
 
+.how-it-works-heading h2 {
+    font-size: 1.5rem;
+    line-height: 1.4rem;
+}
 
-
-.affordable-health-paragraph p {
+.common-para-class p {
     font-size: 1rem;
     text-align: center;
     line-height: 1.3rem;
@@ -60,7 +63,7 @@ i.fas.fa-map-marker-alt {
     filter: contrast(0.2);
 }
 
-.affordable-health-button {
+.affordable-health-button, .how-it-works-heading{
     display: flex;
     justify-content: center;
 }
@@ -73,6 +76,33 @@ i.fas.fa-map-marker-alt {
 
 .input-search {
     margin-bottom: 1.2rem;
+}
+.how-it-works-button{
+    display: flex;
+    flex-direction: column;
+}
+.common-how-it-work-class {
+    text-align: left;
+    border: 0.1rem solid var(--dark-grey);
+    border-radius: 0.4rem;
+    background-color: var(--white);
+}
+
+.common-how-it-work-class span{
+    color: var(--light-grey);
+    font-family: BoldFont;
+    font-size: 1.1rem;
+}
+.how-it-works-img-container{
+    width: 20rem;
+}
+.how-it-works-img-container img{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    /* display: none; */
+}
+.text-img-container{
+    text-align: center;
 }
 
 @media only screen and (min-width:768px) {
@@ -138,24 +168,24 @@ i.fas.fa-map-marker-alt {
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
-    .affordable-health-div{
-      margin: 6rem;
+    .affordable-health-div {
+        margin: 6rem;
     }
-    .affordable-health-heading h1{
+    .affordable-health-heading h1 {
         font-size: 3rem;
         text-align: left;
         margin-bottom: 3rem;
     }
-    .affordable-health-paragraph p{
+    .affordable-health-paragraph p {
         text-align: left;
         font-size: 1.5rem;
-    line-height: 2rem;
-    margin-bottom: 3.5rem;
+        line-height: 2rem;
+        margin-bottom: 3.5rem;
     }
     .gps-image {
         left: 340px;
     }
-   /* .affordable-form input[type="text"]{
+    /* .affordable-form input[type="text"]{
        padding:1.5rem ;
    } */
 }
@@ -164,5 +194,4 @@ i.fas.fa-map-marker-alt {
     li>a {
         font-size: 1rem;
     }
-   
 }
