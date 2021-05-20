@@ -63,7 +63,7 @@ i.fas.fa-map-marker-alt {
     filter: contrast(0.2);
 }
 
-.affordable-health-button, .how-it-works-heading{
+.affordable-health-button, .how-it-works-heading {
     display: flex;
     justify-content: center;
 }
@@ -77,10 +77,13 @@ i.fas.fa-map-marker-alt {
 .input-search {
     margin-bottom: 1.2rem;
 }
-.how-it-works-button{
+
+.how-it-works-button {
     display: flex;
     flex-direction: column;
+    padding-bottom: 1rem;
 }
+
 .common-how-it-work-class {
     text-align: left;
     border: 0.1rem solid var(--dark-grey);
@@ -88,21 +91,42 @@ i.fas.fa-map-marker-alt {
     background-color: var(--white);
 }
 
-.common-how-it-work-class span{
+.common-how-it-work-class span {
     color: var(--light-grey);
     font-family: BoldFont;
     font-size: 1.1rem;
 }
-.how-it-works-img-container{
+
+.how-it-works-img-container {
     width: 20rem;
 }
-.how-it-works-img-container img{
+
+.how-it-works-img-container img {
     padding-top: 2rem;
     padding-bottom: 2rem;
     /* display: none; */
 }
-.text-img-container{
+
+.text-img-container {
     text-align: center;
+}
+
+.hide-img-container {
+    display: none;
+}
+
+.active-btn-1 {
+    border: 0.1rem solid var(--bright-blue);
+}
+
+span.active-text-1 {
+    font-size: 1.3rem;
+    color: var(--dark-blue);
+}
+
+span.active-number-1 {
+    font-size: 1.5rem;
+    color: var(--bright-blue);
 }
 
 @media only screen and (min-width:768px) {
