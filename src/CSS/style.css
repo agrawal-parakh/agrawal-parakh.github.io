@@ -83,6 +83,9 @@ i.fas.fa-map-marker-alt {
     flex-direction: column;
     padding-bottom: 1rem;
 }
+.works-button-last{
+    padding: 0;
+}
 
 .common-how-it-work-class {
     text-align: left;
@@ -154,7 +157,7 @@ span.active-number-1 {
 .container {
     position: relative;
     text-align: center;
-    color: white;
+    /* color: white; */
     padding-bottom: 1rem;
 }
 
