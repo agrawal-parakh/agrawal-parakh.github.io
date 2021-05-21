@@ -128,14 +128,60 @@ span.active-number-1 {
     font-size: 1.5rem;
     color: var(--bright-blue);
 }
-.another button{
+
+.another button {
     width: 100%;
 }
-.another-1{
+
+.another-1 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.medical-treatment-heading h4 {
+    text-align: center;
+    font-size: 1.23rem;
+}
+
+.medical-treatment-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+.container img {
+    width: 19rem;
+    height: 19rem;
+}
+
+.align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 3rem;
+    left: 1rem;
+    padding-bottom: 0.5rem;
+    font-family: BoldFont;
+}
+.bottom-left-1{
+    position: absolute;
+    bottom: 2rem;
+    left: 1rem;
+} 
 
 @media only screen and (min-width:768px) {
     .header-img {

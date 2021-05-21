@@ -1,5 +1,13 @@
 function show1() {
     var a = document.querySelectorAll(".common-how-it-work-class");
+    // for (var i = 0; i < a.length; i++) {
+    //     if (a[i] == a[0]) {
+    //         a[0].style.border = "0.1rem solid var(--bright-blue)";
+    //     }
+    //     else {
+    //         a[i].style.border = "0.1rem solid var(--dark-grey)"
+    //     }
+    // }
     a.forEach((ele) => {
         ele.style.border = "0.1rem solid var(--dark-grey)"
     })
@@ -31,6 +39,15 @@ function show1() {
 
 function show2() {
     var a = document.querySelectorAll(".common-how-it-work-class");
+    // for (var i = 0; i < a.length; i++) {
+    //     if (a[i] == a[1]) {
+    //         a[1].style.border = "0.1rem solid var(--bright-blue)";
+    //     }
+    //     else {
+    //         a[i].style.border = "0.1rem solid var(--dark-grey)"
+    //     }
+    // }
+
     a.forEach((ele) => {
         ele.style.border = "0.1rem solid var(--dark-grey)"
     })
@@ -61,6 +78,16 @@ function show2() {
 
 function show3() {
     var a = document.querySelectorAll(".common-how-it-work-class");
+    // for (var i = 0; i < a.length; i++) {
+    //     if (a[i] == a[2]) {
+    //         console.log("inside a[2]")
+    //         a[2].style.border = "0.1rem solid var(--bright-blue)";
+    //     }
+    //     else {
+    //         console.log("inside else")
+    //         a[i].style.border = "0.1rem solid var(--dark-grey)"
+    //     }
+    // }
     a.forEach((ele) => {
         ele.style.border = "0.1rem solid var(--dark-grey)"
     })
@@ -81,7 +108,7 @@ function show3() {
     })
     c[2].style.fontSize = "1.3rem";
     c[2].style.color = "var(--dark-blue)";
-   
+
     var d = document.querySelectorAll(".how-it-works-img-container");
     d.forEach((ele) => {
         ele.style.display = "none";
@@ -124,7 +151,7 @@ function show5() {
     var a = document.querySelectorAll(".common-how-it-work-class");
     a.forEach((ele) => {
         ele.style.border = "0.1rem solid var(--dark-grey)"
-    })
+    })      
     a[4].style.border = "0.1rem solid var(--bright-blue)";
 
     var b = document.querySelectorAll(".common-how-it-work-class .number");
