@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/reset.css" />
     <link rel="stylesheet" href="../CSS/theme.css" />
-    <link rel="stylesheet" href="../CSS/sumbitquery.css" />
+    <link rel="stylesheet" href="../CSS/query.css">
     <link rel="stylesheet" href="../CSS/style.css" />
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css">
@@ -35,34 +35,38 @@
             </div>
 
             <div class="desktop-header-button">
-                <button class="secondary-button secondary-button-margin">Login/Sign Up</button>
-                <button class="primary-button">Get A Quote</button>
+                <button class="secondary-button secondary-button-margin query-btn-common">Logout</button>
+                <button class="query-primary-button primary-button query-btn-common">Get A Quote</button>
             </div>
         </div>
     </header>
     <section class="submit-your-query-container">
         <div class="submit-your-query-form">
             <h3>Submit your query</h3>
-            <form action="" class="submit-your-query-form-container">
+      
+                <form action="" class="submit-your-query-form-container">
 
 
-                <input type="text" placeholder="Enter Name" />
-                <input type="text" placeholder="Enter Phone Number" />
-                <input type="email" placeholder="Enter Email" />
+                    <input type="text" placeholder="Enter Name" />
+                    <input type="text" placeholder="Enter Phone Number" />
+                    <input type="email" placeholder="Enter Email" />
+                    <div class="sumbmit-your-query-textarea">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Write your query here"></textarea>
+                    </div>
 
-                <textarea name="" id=""  placeholder="Write your query here" class="textarea-placeholder"></textarea>
-                <div class="icon-wrap">
-                    <i class="fas fa-arrow-right"></i>
-                </div>
-                <input type="button" value="SUBMIT">
-            </form>
+                    <div class="icon-wrap">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                    <input type="button" value="SUBMIT" class="submit-query-button">
+                </form>
+ 
         </div>
     </section>
-   
+
     <section class="footer-login">
         <h6>All rights reserved <span>&#169;</span>Tvastra 2020</h6>
     </section>
-  
+
 </body>
 
 </html>

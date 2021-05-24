@@ -3,17 +3,27 @@
      height: 100vh;
      display: flex;
      flex-direction: column;
-     justify-content: space-between;
+     /* justify-content: space-between; */
  }
 
  form {
-     padding: 1.5rem 1rem;
+     /* padding: 1.5rem 1rem; */
+     padding: 1.4rem 1.2rem;
  }
+
+ .login-container{
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
 
  .login-form {
      background-color: var(--white);
-     display: flex;
-     flex-direction: column;
+     /* display: flex; */
+     /* flex-direction: column; */
+     width: 100%;
      text-align: center;
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  }
@@ -27,12 +37,14 @@
  }
 
  .login-form input {
-     padding: 1rem;
+     padding: 1.1rem;
+     margin-bottom: 0.7rem;
  }
 
  .not-register {
      display: flex;
      justify-content: center;
+     padding-top: 0.5rem
  }
 
  .not-register h6 {
@@ -66,6 +78,10 @@
      position: absolute;
      padding: 1rem;
  }
+ .footer-login{
+    padding: 1rem;
+ }
+
 
  .footer-login h6{
      text-align: center;
@@ -87,15 +103,28 @@
          justify-content: center;
      }
      .login-form{
-        width: 65%;
+        width: 70%;
+     }
+     .footer-login{
+         padding: 2rem;
      }
      .footer-login h6{
          font-size: 1rem;
+     }
+     .login-form input{
+         padding: 1.3rem;
+         margin-bottom: 0.9rem;
      }
  }
 
  @media only screen and (min-width:1024px){
      .login-form{
          width: 50%;
+     }
+     .login-form input{
+         padding: 1rem;
+     }
+     .footer-login{
+         padding: 1.5rem;
      }
  }

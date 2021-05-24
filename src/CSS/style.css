@@ -186,6 +186,7 @@ span.active-number-1 {
     left: 1rem;
 } 
 
+
 @media only screen and (min-width:768px) {
     .header-img {
         width: 10rem;
@@ -220,9 +221,9 @@ span.active-number-1 {
 }
 
 @media only screen and (min-width:1024px) {
-    .header-img {
+    /* .header-img {
         width: 15rem;
-    }
+    } */
     .header-icon {
         display: none;
     }
@@ -241,8 +242,14 @@ span.active-number-1 {
     .secondary-button-margin {
         margin-right: 1rem;
     }
+    .query-btn-common{
+        border-radius: 0.4rem;
+    }
     .primary-button {
         padding: 0.8rem;
+    }
+    .common-border-radius-btn{
+        border-radius: 0.4rem;
     }
     .affordable-health-section {
         background-image: url("https://s3.ap-south-1.amazonaws.com/appdev.konfinity.com/css/tasks/img1.jpg");
@@ -269,6 +276,7 @@ span.active-number-1 {
     /* .affordable-form input[type="text"]{
        padding:1.5rem ;
    } */
+ 
 }
 
 @media only screen and (min-width:1300px) {

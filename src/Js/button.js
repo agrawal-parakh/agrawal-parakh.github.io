@@ -1,13 +1,5 @@
 function show1() {
     var a = document.querySelectorAll(".common-how-it-work-class");
-    // for (var i = 0; i < a.length; i++) {
-    //     if (a[i] == a[0]) {
-    //         a[0].style.border = "0.1rem solid var(--bright-blue)";
-    //     }
-    //     else {
-    //         a[i].style.border = "0.1rem solid var(--dark-grey)"
-    //     }
-    // }
     a.forEach((ele) => {
         ele.style.border = "0.1rem solid var(--dark-grey)"
     })
@@ -35,6 +27,8 @@ function show1() {
     })
     d[0].style.display = "block";
 }
+
+//29 line ka code 7 baar repeat ho raha h bs alag alag id h isliye isko ar chota kr skte baad main mvc use krte waqt
 
 
 function show2() {

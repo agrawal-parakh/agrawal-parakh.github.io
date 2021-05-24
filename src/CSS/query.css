@@ -3,7 +3,6 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .submit-your-query-form {
@@ -17,24 +16,22 @@ body {
 .submit-your-query-form h3 {
     color: var(--bright-blue);
     font-size: 1.2rem;
-    padding: 1.5rem;
+    padding: 2.5rem;
     margin: 0rem;
     border-bottom: 0.1rem solid var(--light-grey);
 }
 
 form {
-    padding: 1.5rem 1rem;
+    padding: 1.25rem;
 }
 
 .submit-your-query-form input {
-    /* padding: 1rem; */
     border: 1px solid var(--light-grey);
     margin-bottom: 1.3rem;
 }
 
 .submit-your-query-form ::placeholder {
     font-family: BoldFont;
-    /* padding-left: 1.3rem; */
 }
 
 .icon-wrap {
@@ -48,32 +45,70 @@ i.fas.fa-arrow-right {
     padding: 1rem;
 }
 
-.footer-login h6 {
+.footer-login {
+    padding: 1rem;
     text-align: center;
+}
+
+.footer-login h6 {
     font-size: 0.8rem;
     word-spacing: 0.1rem;
 }
 
-.textarea-placeholder {
+.sumbmit-your-query-textarea textarea {
+    margin-bottom: 1.3rem;
     padding: 0.5rem;
+    height: 13rem;
+}
+
+input.submit-query-button {
+    padding: 1.2rem;
+    margin-bottom: 3rem;
 }
 
 @media only screen and (min-width: 768px) {
     .submit-your-query-container {
         display: flex;
-        align-items: center;
         justify-content: center;
-    }
-    .submit-your-query-form {
-        width: 65%;
+        padding-bottom: 1.5rem;
     }
     .footer-login h6 {
         font-size: 1rem;
     }
+    .submit-your-query-form h3 {
+        padding: 3rem;
+    }
+    form {
+        padding: 1.45rem;
+    }
+    .sumbmit-your-query-textarea textarea {
+        height: 16rem;
+        width: 30rem;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
-    .submit-your-query-form {
-        width: 50%;
+    .submit-your-query-container {
+        padding-bottom: 3rem;
+    }
+    form {
+        padding: 2rem 2.5rem;
+    }
+    .submit-your-query-form h3 {
+        padding: 4rem;
+    }
+    .sumbmit-your-query-textarea textarea {
+        height: 14rem;
+        width: 45rem;
+    }
+    .query-primary-button {
+        width: 10rem;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .sumbmit-your-query-textarea textarea {
+        height: 14rem;
+        width: 65rem;
     }
 }

@@ -48,15 +48,11 @@ form {
     border-bottom: 0.1rem solid var(--light-grey);
 }
 
-
-
 /* hide calendar-picker-indicator */
 
 ::-webkit-calendar-picker-indicator {
     display: none
 }
-
-
 
 .appointment-form ::placeholder {
     font-size: 0.8rem;
@@ -67,8 +63,6 @@ form {
     display: flex;
     flex-direction: row-reverse;
 }
-
-
 
 i.fas.fa-arrow-right {
     color: var(--white);
@@ -88,18 +82,25 @@ i.fas.fa-arrow-right {
         align-items: center;
         justify-content: center;
     }
-    .appointment-form {
-        width: 65%;
-    }
     .appointment-footer h6 {
         font-size: 1rem;
+    }
+    .sumbmit-your-query-textarea textarea {
+        height: 16rem;
+        width: 30rem;
     }
 }
 
 @media only screen and (min-width:1024px) {
-    .appointment-form {
-        width: 50%;
+    .sumbmit-your-query-textarea textarea {
+        height: 14rem;
+        width: 40rem;
+        border: 0.1rem solid var(--grey);
     }
 }
 
-
+@media only screen and (min-width:1300px) {
+    .sumbmit-your-query-textarea textarea {
+        width: 45rem;
+    }
+}
