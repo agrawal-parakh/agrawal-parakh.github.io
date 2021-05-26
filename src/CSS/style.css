@@ -187,7 +187,58 @@ span.active-number-1 {
     bottom: 2rem;
     left: 1rem;
 }  
+.expert-doctors-section{
+    background-color: var(--dark-blue);
+    padding: 2rem 1.2rem;
+    padding-bottom: 1rem;
+}
+.expert-doctor-heading h4,.expert-doctors-paragraph p{
+    color: var(--white);
+    text-align: center;
+}
+.expert-doctors-paragraph p{
+    font-size: 1.02rem;
+    line-height: 1.4rem;
+    word-spacing: 0.2rem;
+}
+.expert-doctors-image-div{
+    height: 22rem;
+    /* margin-bottom: 1rem */
+}
 
+.expert-doctor-img-outside-div{
+    background-color: var(--white);
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    word-spacing: 0.1rem;
+    position: relative;
+    border-bottom: 0.4rem solid var(--light-blue);
+}
+.expert-doctor-img-outside-div h6{
+    margin-bottom: 0.5rem;
+    color: var(--bright-blue);
+    font-size: 1rem;
+    /* position: relative; */
+}
+.expert-doctor-img-outside-div::before{
+    content: "";
+    display: block;
+    width: 2.5rem;
+    height: 2px;
+    background:var(--bright-blue);
+    position: absolute;
+    left: 0;
+   top: 1.4rem;
+}
+.expert-doctor{
+    margin-bottom: 1rem;
+}
+.expert-doctor-ul{
+    font-family: LightFont;
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+}
 
 @media only screen and (min-width:768px) {
     .header-img {
@@ -220,6 +271,12 @@ span.active-number-1 {
         font-size: 1.1rem;
         width: 8rem;
     }
+    /* .expert-doctors-image-div{
+   height: 29rem;
+   width: 22rem;
+   display: flex;
+  
+    } */
 }
 
 @media only screen and (min-width:1024px) {

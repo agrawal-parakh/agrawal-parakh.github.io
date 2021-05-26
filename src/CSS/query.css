@@ -42,7 +42,7 @@ form {
 i.fas.fa-arrow-right {
     color: var(--white);
     position: absolute;
-    padding: 1rem;
+    padding: 1.3rem;
 }
 
 .footer-login {
