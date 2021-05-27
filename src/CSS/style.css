@@ -239,6 +239,47 @@ span.active-number-1 {
     font-size: 0.8rem;
     line-height: 1.1rem;
 }
+.exclusive-service-section{
+    background-color: var(--whitesmoke);
+}
+.exclusive-service-heading{
+    display: flex;
+    justify-content: center;
+}
+
+.travel-food-card,.accomodation-labs-card,.reports-ambulance-card{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 0.5rem;
+}
+
+.common-card-property{
+    background-color: var(--white);
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.common-card-property img{
+    width: 5rem;
+}
+
+.travel-card,.accomodation-card,.reports-card{
+    margin-right: 0.5rem;
+}
+.common-inside-service-card{
+    text-transform: uppercase;
+    font-family: BoldFont;
+    color: var(--grey);
+    font-size: 0.8rem;
+}
+/* .ac-card-block{
+    display: none;
+} */
 
 @media only screen and (min-width:768px) {
     .header-img {
@@ -271,12 +312,12 @@ span.active-number-1 {
         font-size: 1.1rem;
         width: 8rem;
     }
-    /* .expert-doctors-image-div{
-   height: 29rem;
-   width: 22rem;
-   display: flex;
-  
+    /* .ac-card-block{
+        display: block;
     } */
+    
+   
+
 }
 
 @media only screen and (min-width:1024px) {
