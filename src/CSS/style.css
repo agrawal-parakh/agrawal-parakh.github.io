@@ -83,7 +83,8 @@ i.fas.fa-map-marker-alt {
     flex-direction: column;
     padding-bottom: 1rem;
 }
-.works-button-last{
+
+.works-button-last {
     padding: 0;
 }
 
@@ -172,9 +173,11 @@ span.active-number-1 {
     align-items: center;
     flex-direction: column;
 }
- .inside-image-div{
+
+.inside-image-div {
     color: var(--white);
-} 
+}
+
 .bottom-left {
     position: absolute;
     bottom: 3rem;
@@ -182,31 +185,36 @@ span.active-number-1 {
     padding-bottom: 0.5rem;
     font-family: BoldFont;
 }
-.bottom-left-1{
+
+.bottom-left-1 {
     position: absolute;
     bottom: 2rem;
     left: 1rem;
-}  
-.expert-doctors-section{
+}
+
+.expert-doctors-section {
     background-color: var(--dark-blue);
     padding: 2rem 1.2rem;
     padding-bottom: 1rem;
 }
-.expert-doctor-heading h4,.expert-doctors-paragraph p{
+
+.expert-doctor-heading h4, .expert-doctors-paragraph p {
     color: var(--white);
     text-align: center;
 }
-.expert-doctors-paragraph p{
+
+.expert-doctors-paragraph p {
     font-size: 1.02rem;
     line-height: 1.4rem;
     word-spacing: 0.2rem;
 }
-.expert-doctors-image-div{
+
+.expert-doctors-image-div {
     height: 22rem;
     /* margin-bottom: 1rem */
 }
 
-.expert-doctor-img-outside-div{
+.expert-doctor-img-outside-div {
     background-color: var(--white);
     padding-left: 3rem;
     padding-right: 3rem;
@@ -215,45 +223,51 @@ span.active-number-1 {
     position: relative;
     border-bottom: 0.4rem solid var(--light-blue);
 }
-.expert-doctor-img-outside-div h6{
+
+.expert-doctor-img-outside-div h6 {
     margin-bottom: 0.5rem;
     color: var(--bright-blue);
     font-size: 1rem;
     /* position: relative; */
 }
-.expert-doctor-img-outside-div::before{
+
+.expert-doctor-img-outside-div::before {
     content: "";
     display: block;
     width: 2.5rem;
     height: 2px;
-    background:var(--bright-blue);
+    background: var(--bright-blue);
     position: absolute;
     left: 0;
-   top: 1.4rem;
+    top: 1.4rem;
 }
-.expert-doctor{
+
+.expert-doctor {
     margin-bottom: 1rem;
 }
-.expert-doctor-ul{
+
+.expert-doctor-ul {
     font-family: LightFont;
     font-size: 0.8rem;
     line-height: 1.1rem;
 }
-.exclusive-service-section{
+
+.exclusive-service-section {
     background-color: var(--whitesmoke);
 }
-.exclusive-service-heading{
+
+.exclusive-service-heading, .need-help-heading {
     display: flex;
     justify-content: center;
 }
 
-.travel-food-card,.accomodation-labs-card,.reports-ambulance-card{
+.travel-food-card, .accomodation-labs-card, .reports-ambulance-card {
     display: flex;
     justify-content: space-around;
     padding-bottom: 0.5rem;
 }
 
-.common-card-property{
+.common-card-property {
     background-color: var(--white);
     width: 100%;
     padding: 1rem;
@@ -264,23 +278,86 @@ span.active-number-1 {
     flex-direction: column;
 }
 
-.common-card-property img{
+.common-card-property img {
     width: 5rem;
 }
 
-.travel-card,.accomodation-card,.reports-card{
+.travel-card, .accomodation-card, .reports-card {
     margin-right: 0.5rem;
 }
-.common-inside-service-card{
+
+.common-inside-service-card {
     text-transform: uppercase;
     font-family: BoldFont;
     color: var(--grey);
     font-size: 0.8rem;
 }
+
+.need-help-section {
+    /* background-color: var(--bg-blue); */
+    background-color: var(--light-blue);
+}
+
+.need-help-heading h2 {
+    color: var(--white);
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+.submit-enquiry-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.submit-enquiry-btn button {
+    /* background-color: #0099ff; */
+    background-color: var(--bright-blue);
+    width: 12rem;
+    color: var(--white);
+    border-radius: 0.4rem;
+    font-size: 1rem;
+}
+.footer-section{
+    background-color: var(--dark-blue);
+}
+.footer-img{
+    width: 11rem;
+    margin-bottom: 0.5rem;
+}
 /* .ac-card-block{
     display: none;
 } */
+.footer-header-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-list{
+    margin-bottom: 1rem;
+}
 
+.footer-list>ul>li>a{
+    color: var(--light-grey);
+    line-height: 2rem;
+    font-size: 0.9rem;
+}
+.social-media-icons{
+    color: var(--light-grey);
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+}
+.social-media-icons i{
+    margin-right: 2.5rem;
+}
+.footer-end h6{
+    color: var(--light-grey);
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    font-family: LightFont;
+    text-align: center;
+}
 @media only screen and (min-width:768px) {
     .header-img {
         width: 10rem;
@@ -315,9 +392,9 @@ span.active-number-1 {
     /* .ac-card-block{
         display: block;
     } */
-    
-   
-
+    /* .footer-section{
+        background-color: var(--dark-blue);
+    } */
 }
 
 @media only screen and (min-width:1024px) {
@@ -342,13 +419,13 @@ span.active-number-1 {
     .secondary-button-margin {
         margin-right: 1rem;
     }
-    .query-btn-common{
+    .query-btn-common {
         border-radius: 0.4rem;
     }
     .primary-button {
         padding: 0.8rem;
     }
-    .common-border-radius-btn{
+    .common-border-radius-btn {
         border-radius: 0.4rem;
     }
     .affordable-health-section {
@@ -376,7 +453,6 @@ span.active-number-1 {
     /* .affordable-form input[type="text"]{
        padding:1.5rem ;
    } */
- 
 }
 
 @media only screen and (min-width:1300px) {

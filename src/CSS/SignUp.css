@@ -90,9 +90,10 @@ i.fas.fa-caret-down{
     position: absolute;
     padding-top: 0.7rem;
     border-right: 0.2rem solid var(--mix-grey);
-    padding-bottom: 0.7rem;
+    padding-bottom: 0.9rem;
     border-bottom: 0.1rem solid var(--mix-grey);
     background-color:var(--whitesmoke);
+    font-size: 0.7rem;
 }
 
 i.fas.fa-arrow-right {
