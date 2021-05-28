@@ -407,6 +407,12 @@ span.active-number-1 {
     /* .footer-section{
         background-color: var(--dark-blue);
     } */
+
+
+    /* expert-doctor-section */
+    .expert-doctor {
+        margin-bottom: 0rem;
+    }
 }
 
 @media only screen and (min-width:1024px) {

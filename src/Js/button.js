@@ -213,7 +213,7 @@ function show7() {
         ele.style.fontSize = "1.1rem";
         ele.style.color = "var(--light-grey)"
     })
-    b[6].style.fontSize = "1.5rem";
+    b[6].style.fontSize = "1.2rem";
     b[6].style.color = "var(--bright-blue)";
 
     var c = document.querySelectorAll(".common-how-it-work-class .text");
