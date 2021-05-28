@@ -79,8 +79,8 @@ i.fas.fa-map-marker-alt {
 }
 
 .how-it-works-button {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     padding-bottom: 1rem;
 }
 
@@ -162,41 +162,50 @@ span.active-number-1 {
     align-items: center;
 }
 
-.container {
-    position: relative;
-    text-align: center;
-    /* color: white; */
-    padding-bottom: 1rem;
-}
-
-.container img {
-    width: 19rem;
-    height: 19rem;
-}
-
-.align {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.inside-image-div {
+ .inside-image-div {
     color: var(--white);
-}
+} 
 
-.bottom-left {
+ .bottom-left {
     position: absolute;
     bottom: 3rem;
     left: 1rem;
     padding-bottom: 0.5rem;
     font-family: BoldFont;
-}
+} 
 
 .bottom-left-1 {
     position: absolute;
     bottom: 2rem;
     left: 1rem;
+}  
+
+.medical-bg-img-common{
+    /* background-image: linear-gradient(to top,var(--black),transparent),url("https://s3.ap-south-1.amazonaws.com/appdev.konfinity.com/css/tasks/image--009.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 20rem;
+    height: 18rem;
+    position: relative;
+    margin-bottom: 1rem;
+}
+.dentistry-bg-img{
+    background-image: linear-gradient(to top,var(--black),transparent),url("https://s3.ap-south-1.amazonaws.com/appdev.konfinity.com/css/tasks/image--009.jpg");
+}
+.cancer-bg-img{
+    background-image: linear-gradient(to top,var(--black),transparent),url("https://s3.ap-south-1.amazonaws.com/appdev.konfinity.com/css/tasks/image--010.jpg");
+}
+.cardio-bg-img{
+    background-image: linear-gradient(to top,var(--black),transparent),url("https://s3.ap-south-1.amazonaws.com/appdev.konfinity.com/css/tasks/image--011.jpg");
+}
+.multi-organ-bg-img{
+    background-image: linear-gradient(to top,var(--black),transparent),url("https://s3.ap-south-1.amazonaws.com/appdev.konfinity.com/css/tasks/image--006.jpg");
+}
+.orthopedics-bg-img{
+    background-image: linear-gradient(to top,var(--black),transparent),url("https://s3.ap-south-1.amazonaws.com/appdev.konfinity.com/css/tasks/image--008.jpg");
+}
+.infertility-bg-img{
+    background-image: linear-gradient(to top,var(--black),transparent),url("https://s3.ap-south-1.amazonaws.com/appdev.konfinity.com/css/tasks/image--007.jpg");
 }
 
 .expert-doctors-section {
@@ -275,30 +284,39 @@ span.active-number-1 {
     padding-bottom: 0.5rem;
 }
 
-.common-card-property {
-    background-color: var(--white);
-    width: 100%;
-    padding: 1rem;
-    border-radius: 0.8rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.service-card{
+    display: grid;
+    grid-template: repeat(3,1fr)/repeat(2,1fr);
+    grid-gap: 0.7rem;
 }
 
 .common-card-property img {
     width: 5rem;
+    height: 5rem;
 }
 
-.travel-card, .accomodation-card, .reports-card {
-    margin-right: 0.5rem;
+.common-card-property{
+    display: grid;
+    background-color: var(--white);
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    justify-content: center;
+    align-items: center;
 }
 
-.common-inside-service-card {
+ .common-inside-service-card {
     text-transform: uppercase;
     font-family: BoldFont;
     color: var(--grey);
     font-size: 0.8rem;
+    text-align: center;
+} 
+
+.accomodation-spcl-class{
+font-size: 0.7rem;
+font-family: BoldFont;
+color: var(--grey);
 }
 
 .need-help-section {
