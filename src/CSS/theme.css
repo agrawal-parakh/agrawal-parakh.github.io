@@ -145,12 +145,13 @@ input[type="radio"] {
 
 input[type="radio"]+label::before {
     content: "\2714";
-    border: 0.15rem solid var(--dark-grey);
+    border: 0.14rem solid var(--dark-grey);
     color: transparent;
     margin-right: 1rem;
     border-radius: 70%;
     background-color: var(--light-grey);
-    opacity: 45%
+    opacity: 45%;
+    font-size:1rem;
 }
 
 input[type="radio"]:checked+label::before {
@@ -323,10 +324,10 @@ span {
 }
 
 
-/* @media only screen and (min-width: 1300px) {
-textarea{
-    max-width: 1550px;
-}
-}  */
+ /* @media only screen and (min-width: 1300px) {
+    input[type="radio"]+label::before {
+        border: 0.12rem solid var(--dark-grey);
+    }
+}   */
 
 

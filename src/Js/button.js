@@ -10,12 +10,12 @@ function show1() {
         ele.style.fontSize = "1.1rem";
         ele.style.color = "var(--light-grey)"
     })
-    b[0].style.fontSize = "1.5rem";
+    b[0].style.fontSize = "1.2rem";
     b[0].style.color = "var(--bright-blue)";
 
     var c = document.querySelectorAll(".common-how-it-work-class .text");
     c.forEach((ele) => {
-        ele.style.fontSize = "1.1rem";
+        ele.style.fontSize = "1.2rem";
         ele.style.color = "var(--light-grey)"
     })
     c[0].style.fontSize = "1.3rem";
@@ -28,7 +28,7 @@ function show1() {
     d[0].style.display = "block";
 }
 
-//29 line ka code 7 baar repeat ho raha h bs alag alag id h isliye isko ar chota kr skte baad main mvc use krte waqt
+
 
 
 function show2() {
@@ -52,12 +52,12 @@ function show2() {
         ele.style.fontSize = "1.1rem";
         ele.style.color = "var(--light-grey)"
     })
-    b[1].style.fontSize = "1.5rem";
+    b[1].style.fontSize = "1.2rem";
     b[1].style.color = "var(--bright-blue)";
 
     var c = document.querySelectorAll(".common-how-it-work-class .text");
     c.forEach((ele) => {
-        ele.style.fontSize = "1.1rem";
+        ele.style.fontSize = "1.2rem";
         ele.style.color = "var(--light-grey)"
     })
     c[1].style.fontSize = "1.3rem";
@@ -92,12 +92,12 @@ function show3() {
         ele.style.fontSize = "1.1rem";
         ele.style.color = "var(--light-grey)"
     })
-    b[2].style.fontSize = "1.5rem";
+    b[2].style.fontSize = "1.2rem";
     b[2].style.color = "var(--bright-blue)";
 
     var c = document.querySelectorAll(".common-how-it-work-class .text");
     c.forEach((ele) => {
-        ele.style.fontSize = "1.1rem";
+        ele.style.fontSize = "1.2rem";
         ele.style.color = "var(--light-grey)"
     })
     c[2].style.fontSize = "1.3rem";
@@ -123,12 +123,12 @@ function show4() {
         ele.style.fontSize = "1.1rem";
         ele.style.color = "var(--light-grey)"
     })
-    b[3].style.fontSize = "1.5rem";
+    b[3].style.fontSize = "1.2rem";
     b[3].style.color = "var(--bright-blue)";
 
     var c = document.querySelectorAll(".common-how-it-work-class .text");
     c.forEach((ele) => {
-        ele.style.fontSize = "1.1rem";
+        ele.style.fontSize = "1.2rem";
         ele.style.color = "var(--light-grey)"
     })
     c[3].style.fontSize = "1.3rem";
@@ -153,12 +153,12 @@ function show5() {
         ele.style.fontSize = "1.1rem";
         ele.style.color = "var(--light-grey)"
     })
-    b[4].style.fontSize = "1.5rem";
+    b[4].style.fontSize = "1.2rem";
     b[4].style.color = "var(--bright-blue)";
 
     var c = document.querySelectorAll(".common-how-it-work-class .text");
     c.forEach((ele) => {
-        ele.style.fontSize = "1.1rem";
+        ele.style.fontSize = "1.2rem";
         ele.style.color = "var(--light-grey)"
     })
     c[4].style.fontSize = "1.3rem";
@@ -183,12 +183,12 @@ function show6() {
         ele.style.fontSize = "1.1rem";
         ele.style.color = "var(--light-grey)"
     })
-    b[5].style.fontSize = "1.5rem";
+    b[5].style.fontSize = "1.2rem";
     b[5].style.color = "var(--bright-blue)";
 
     var c = document.querySelectorAll(".common-how-it-work-class .text");
     c.forEach((ele) => {
-        ele.style.fontSize = "1.1rem";
+        ele.style.fontSize = "1.2rem";
         ele.style.color = "var(--light-grey)"
     })
     c[5].style.fontSize = "1.3rem";
@@ -218,7 +218,7 @@ function show7() {
 
     var c = document.querySelectorAll(".common-how-it-work-class .text");
     c.forEach((ele) => {
-        ele.style.fontSize = "1.1rem";
+        ele.style.fontSize = "1.2rem";
         ele.style.color = "var(--light-grey)"
     })
     c[6].style.fontSize = "1.3rem";

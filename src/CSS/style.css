@@ -31,7 +31,7 @@
 }
 
 .how-it-works-heading h2 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     line-height: 1.6rem;
 }
 
@@ -100,19 +100,26 @@ i.fas.fa-map-marker-alt {
     font-family: BoldFont;
     font-size: 1.1rem;
 }
+.common-how-it-work-class .text{
+    font-size: 1.2rem;
+    /* color: red; */
+}
 
 .how-it-works-img-container {
     width: 20rem;
 }
 
 .how-it-works-img-container img {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     /* display: none; */
 }
 
 .text-img-container {
     text-align: center;
+}
+.text-img-container p{
+    margin-bottom:0.4rem ;
 }
 
 .hide-img-container {
@@ -129,7 +136,7 @@ span.active-text-1 {
 }
 
 span.active-number-1 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: var(--bright-blue);
 }
 
@@ -145,7 +152,7 @@ span.active-number-1 {
 
 .medical-treatment-heading h4 {
     text-align: center;
-    font-size: 1.23rem;
+    /* font-size: 1.23rem; */
 }
 
 .medical-treatment-div {
@@ -250,6 +257,7 @@ span.active-number-1 {
     font-family: LightFont;
     font-size: 0.8rem;
     line-height: 1.1rem;
+    margin-bottom: 0.6rem;
 }
 
 .exclusive-service-section {
