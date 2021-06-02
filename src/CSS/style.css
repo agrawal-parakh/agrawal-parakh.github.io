@@ -608,6 +608,12 @@ span.active-number-1 {
     /* .affordable-form input[type="text"]{
        padding:1.5rem ;
    } */
+
+   .another-1{
+    position: absolute;
+    left: 40rem;
+    top: 53rem;
+ }
 }
 
 @media only screen and (min-width:1300px) {
