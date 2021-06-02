@@ -79,9 +79,26 @@ i.fas.fa-map-marker-alt {
 }
 
 .how-it-works-button {
-    /* display: flex;
-    flex-direction: column; */
     padding-bottom: 1rem;
+}
+
+.how-it-works-button-all {
+    display: grid;
+}
+
+.how-it-works-button {
+    display: grid;
+    /* grid-gap: 1rem; */
+}
+
+.how-it-works-img-container {
+    width: 20rem;
+}
+
+.another-1 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
 
 .works-button-last {
@@ -103,17 +120,11 @@ i.fas.fa-map-marker-alt {
 
 .common-how-it-work-class .text {
     font-size: 1.2rem;
-    /* color: red; */
-}
-
-.how-it-works-img-container {
-    width: 20rem;
 }
 
 .how-it-works-img-container img {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    /* display: none; */
 }
 
 .text-img-container {
@@ -140,16 +151,6 @@ span.active-text-1 {
 span.active-number-1 {
     font-size: 1.2rem;
     color: var(--bright-blue);
-}
-
-.another button {
-    width: 100%;
-}
-
-.another-1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .medical-treatment-heading h4 {
@@ -448,6 +449,30 @@ span.active-number-1 {
         font-size: 1.1rem;
         width: 8rem;
     }
+
+    .how-it-works-button{
+        display: grid;
+        width: 47%;
+    }
+
+    .how-it-works-img-container{
+        position: relative;
+        /* left: 24rem;
+        top: -1rem; */
+    }
+
+    .another-1{
+       position: absolute;
+       left: 27rem;
+       top: 30rem;
+    }
+
+
+    .how-it-works-img-container {
+        width: 17rem;
+    }
+
+
     /* .ac-card-block{
         display: block;
     } */
@@ -507,28 +532,24 @@ span.active-number-1 {
     .tablet-footer-list>ul>li {
         margin-right: 1rem;
     }
-
     .tablet-footer-list>ul>li>a {
         font-size: 1rem;
     }
-
-
     .darkblue-colour, .darkblue-colour h6 {
         color: var(--dark-blue);
     }
-    .merge{
+    .merge {
         display: grid;
         align-items: center;
         grid-template: 1fr/3fr 1fr;
     }
-    .footer-end{
+    .footer-end {
         display: grid;
         justify-content: flex-start;
     }
-    .tablet-social-media-icons i{
+    .tablet-social-media-icons i {
         margin-right: 1rem;
     }
-    
 }
 
 @media only screen and (min-width:1024px) {

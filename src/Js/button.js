@@ -1,3 +1,5 @@
+
+
 function show1() {
     var a = document.querySelectorAll(".common-how-it-work-class");
     a.forEach((ele) => {
@@ -26,6 +28,12 @@ function show1() {
         ele.style.display = "none";
     })
     d[0].style.display = "block";
+
+    // var d = document.querySelectorAll(".another-1");
+    // d.forEach((ele) => {
+    //     ele.style.display = "none";
+    // })
+    // d[0].style.display = "block";
 }
 
 
@@ -68,6 +76,15 @@ function show2() {
         ele.style.display = "none";
     })
     d[1].style.display = "block";
+
+    // var d = document.querySelectorAll(".another-1");
+    // console.log(d)
+    // d.forEach((ele) => {
+    //     ele.style.display = "none";
+    // })
+    // d[1].style.display = "block";
+
+   
 }
 
 function show3() {
@@ -109,6 +126,13 @@ function show3() {
     })
     d[2].style.display = "block";
 
+    // var d = document.querySelectorAll(".another-1");
+    // d.forEach((ele) => {
+    //     ele.style.display = "none";
+    // })
+    // d[2].style.display = "block";
+    
+
 }
 
 function show4() {
@@ -139,13 +163,19 @@ function show4() {
         ele.style.display = "none";
     })
     d[3].style.display = "block";
+
+    // var d = document.querySelectorAll(".another-1");
+    // d.forEach((ele) => {
+    //     ele.style.display = "none";
+    // })
+    // d[3].style.display = "block";
 }
 
 function show5() {
     var a = document.querySelectorAll(".common-how-it-work-class");
     a.forEach((ele) => {
         ele.style.border = "0.1rem solid var(--dark-grey)"
-    })      
+    })
     a[4].style.border = "0.1rem solid var(--bright-blue)";
 
     var b = document.querySelectorAll(".common-how-it-work-class .number");
@@ -169,6 +199,12 @@ function show5() {
         ele.style.display = "none";
     })
     d[4].style.display = "block";
+
+    // var d = document.querySelectorAll(".another-1");
+    // d.forEach((ele) => {
+    //     ele.style.display = "none";
+    // })
+    // d[4].style.display = "block";
 }
 
 function show6() {
@@ -199,6 +235,12 @@ function show6() {
         ele.style.display = "none";
     })
     d[5].style.display = "block";
+
+    // var d = document.querySelectorAll(".another-1");
+    // d.forEach((ele) => {
+    //     ele.style.display = "none";
+    // })
+    // d[5].style.display = "block";
 }
 
 function show7() {
@@ -229,5 +271,11 @@ function show7() {
         ele.style.display = "none";
     })
     d[6].style.display = "block"
+
+    // var d = document.querySelectorAll(".another-1");
+    // d.forEach((ele) => {
+    //     ele.style.display = "none";
+    // })
+    // d[6].style.display = "block";
 }
 
