@@ -500,6 +500,10 @@ span.active-number-1 {
     .medical-bg-img-common {
         height: 20.5rem;
     }
+    .expert-doctor-img-outside-div h6 {
+        font-size: 1.2rem;
+    }
+
     .service-card {
         display: grid;
         grid-template: repeat(2, 1fr)/repeat(3, 1fr);
