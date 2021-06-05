@@ -49,10 +49,12 @@ h1, h2, h3, h4, h5, h6 {
     /* text-align: center; */
 }
 
-h1, h2 {
+h1 {
     font-size: 2.5rem;
     line-height: 2.5rem;
 }
+
+
 
 h3 {
     font-size: 2rem;
@@ -74,7 +76,8 @@ p {
     font-family: LightFont;
     margin-bottom: 1.5rem;
     color: var(--dark-blue);
-    font-size: 1.1rem;
+    font-size: 1rem;
+    line-height: 1.3rem;
     word-spacing: 0.1rem;
 }
 
@@ -237,6 +240,13 @@ button {
     background-color: var(--dark-blue);
     color: var(--white);
     border: 0.1rem solid var(--dark-blue);
+}
+
+.tertiary-button{
+    background-color: var(--bright-blue);
+    color: white;
+    border-radius: 0.3rem;
+    font-size: 1.3rem;
 }
 
 a {

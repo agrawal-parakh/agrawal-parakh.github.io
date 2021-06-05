@@ -36,9 +36,7 @@
 }
 
 .common-para-class p {
-    font-size: 1rem;
     text-align: center;
-    line-height: 1.3rem;
 }
 
 i.fas.fa-map-marker-alt {
@@ -262,7 +260,7 @@ span.active-number-1 {
 .expert-doctor-img-outside-div h6 {
     margin-bottom: 0.5rem;
     color: var(--bright-blue);
-    font-size: 1rem;
+    /* font-size: 1rem; */
     /* position: relative; */
 }
 
@@ -347,19 +345,11 @@ span.active-number-1 {
     line-height: 2rem;
 }
 
-.submit-enquiry-btn {
+.submit-query{
     display: flex;
     justify-content: center;
 }
 
-.submit-enquiry-btn button {
-    /* background-color: #0099ff; */
-    background-color: var(--bright-blue);
-    width: 12rem;
-    color: var(--white);
-    border-radius: 0.4rem;
-    font-size: 1rem;
-}
 
 .footer-section {
     background-color: var(--dark-blue);

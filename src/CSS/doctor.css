@@ -1,0 +1,71 @@
+.doctor-container {
+    border: 0.1rem solid var(--light-grey);
+}
+
+.doctor-img-figcaption {
+    word-spacing: 0.1rem;
+    position: relative;
+    padding: 1rem 2.5rem;
+}
+
+.doctor-img-figcaption::before {
+    content: "";
+    display: block;
+    width: 2rem;
+    height: 2px;
+    background: var(--bright-blue);
+    position: absolute;
+    left: 0;
+    top: 1.4rem;
+}
+
+.doctor-img-figcaption h6 {
+    margin-bottom: 0.5rem;
+    color: var(--bright-blue);
+}
+
+.doctor-container-icons span {
+    font-family: LightFont;
+}
+
+.doctor-container-icons i {
+    color: var(--bright-blue);
+    margin-right: 1rem;
+}
+
+.doctors-image-div {
+    height: 22rem;
+}
+
+.doctor-container-icons>div {
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.all-doctor {
+    display: grid;
+    grid-gap: 1rem;
+}
+
+.doctor-container-icons {
+    display: grid;
+}
+
+.doctor-appointment-button {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    margin-top: 1rem;
+}
+
+.doctor-appointment-button>input[type="button"] {
+    grid-column-start: 2;
+    margin-bottom: 0;
+}
+
+.footer-list>h2{
+    font-size: 1.5rem;
+    color: var(--white);
+    margin-top: 1rem;
+    text-align: center;
+}
+
