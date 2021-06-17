@@ -30,9 +30,9 @@ form {
     margin-bottom: 1.3rem;
 }
 
-.submit-your-query-form ::placeholder {
+/* .submit-your-query-form ::placeholder {
     font-family: BoldFont;
-}
+} */
 
 .icon-wrap {
     display: flex;
