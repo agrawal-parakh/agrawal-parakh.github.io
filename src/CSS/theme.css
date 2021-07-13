@@ -54,6 +54,11 @@ h1 {
     line-height: 2.5rem;
 }
 
+h2{
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
+
 
 
 h3 {
@@ -112,7 +117,7 @@ input {
     outline: none;
     /* caret-color: var(--dark-grey); */
     margin-bottom: 0.5rem;
-    /* width: 100%; */
+    width: 100%;
 }
 
 ::placeholder {
@@ -338,6 +343,7 @@ span {
     label {
         font-size: 1.4rem;
     }
+    
 }
 
 

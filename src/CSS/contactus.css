@@ -33,12 +33,10 @@
     color: var(--bright-blue);
 }
 
-
-
 .home-container-text>p {
     margin-bottom: 1rem;
     font-size: 0.9rem;
-margin-top: 0.5rem;
+    margin-top: 0.5rem;
 }
 
 i.fa.fa-phone {
@@ -49,7 +47,7 @@ i.fa.fa-phone {
     background-color: var(--light-blue);
 }
 
-.contactus-form-div>input {
+.contactus-input>input, .contactus-input-mobile-only>input {
     margin-bottom: 0.7rem;
 }
 
@@ -61,4 +59,37 @@ i.fa.fa-phone {
 .no-brdr-radius-btn {
     font-size: 1rem;
     border-radius: 0rem;
+}
+
+.textarea-hidden {
+    display: none;
+}
+
+@media only screen and (min-width:768px) {
+    .all-contactus-icons{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .contactus-form-div {
+        display: grid;
+        grid-template-columns: 1.5fr 1.75fr;
+        grid-column-gap: 1rem;
+    }
+    .contactus-input-mobile-only {
+        display: none;
+    }
+    .textarea-visible {
+        display: block;
+    }
+  
+    .contactus-button {
+        grid-column-start: 2;
+    }
+
+    textarea::placeholder{
+       
+    }
+
+
+  
 }
